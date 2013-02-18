@@ -7,7 +7,8 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-  NAME    => 'TimeDate',
+  NAME    => 'Date::Format',
+  DISTNAME => 'TimeDate',
   AUTHOR  => 'Graham Barr <gbarr@pobox.com>',
   VERSION => '1.20',
   (eval { ExtUtils::MakeMaker->VERSION(6.21) } ? (LICENSE => 'perl') : ()),
